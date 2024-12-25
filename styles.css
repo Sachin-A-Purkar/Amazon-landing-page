@@ -127,3 +127,58 @@ span{
     font-size: 0.9rem;
     font-weight: 700;
 }
+
+/** Hero  **/
+.hero{
+    background-image: url("banner.jpg");
+    background-size: cover;
+    height: 400px;
+}
+
+/** shop**/
+.shop-section{
+    height: 310px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #F5F5F7;
+    padding-top: 30px;
+}
+
+.box{
+    
+    height: 300px;
+    width: 22%;
+    background-color: white;
+}
+
+.box-img{
+    height: 220px;
+    width: 90%;
+    background-color: #222F3d;
+    margin-left: 5%;
+    margin-top: 10px;
+    margin-bottom: 8px ;
+}
+.box h2{
+    font-size: 20px;
+    padding-left: 18px;
+    padding-top: 10px;
+}
+.box a{
+    font-weight: 500;
+    margin-left: 5%;
+    text-decoration: none;
+}
+
+.shop-single{
+    height: 320px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #F5F5F7;
+    padding-top: 30px;
+}
+.single-img{
+    height: 300px;
+    width: 80%;
+    background-image: url(fashion.jpg);
+}
